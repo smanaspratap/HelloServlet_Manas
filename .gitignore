@@ -1,0 +1,33 @@
+# ===========================
+# KEEP ONLY CORE SOURCE FILES
+# ===========================
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Maven build output
+target/
+*.war
+*.jar
+*.class
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Tomcat
+work/
+temp/
+
+# Environment / secrets
+*.env
+*.properties.local
